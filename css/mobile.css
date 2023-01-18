@@ -1,251 +1,249 @@
-@media screen and (max-width: 768px) {
-  /* Header section step 1 */
-  .wrapper {
-    padding: 1rem;
-  }
-  body {
-    font-family: "Open Sans", sans-serif;
-    font-family: "Roboto Slab", serif;
-  }
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 2rem;
-  }
-  .header img {
-    width: 32px;
-    border-radius: 50%;
-  }
+/* Header section step 1 */
+.wrapper {
+  padding: 1rem;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto Slab", serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.header img {
+  width: 32px;
+  border-radius: 50%;
+}
 
-  .header h1 {
-    font-weight: 600;
-    font-size: 1.25rem;
-  }
-  .logo {
-    display: flex;
-  }
+.header h1 {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+.logo {
+  display: flex;
+}
 
-  .logo span {
-    font-weight: bold;
-    color: black;
-    text-shadow: 0.5px 0 black;
-  }
+.logo span {
+  font-weight: bold;
+  color: black;
+  text-shadow: 0.5px 0 black;
+}
 
-  .logo h1 {
-    padding-top: 14px;
-    padding-left: 12px;
-  }
+.logo h1 {
+  padding-top: 14px;
+  padding-left: 12px;
+}
 
-  /* Wallet section step 2 */
-  .wallet .card {
-    background-color: #6951ff;
-    background: linear-gradient(to top left, #6148fe, #8173df);
-    color: white;
-    padding: 0.75rem;
-    border-radius: 10px;
-    height: 11rem;
+/* Wallet section step 2 */
+.wallet .card {
+  background-color: #6951ff;
+  background: linear-gradient(to top left, #6148fe, #8173df);
+  color: white;
+  padding: 0.75rem;
+  border-radius: 10px;
+  height: 11rem;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    box-shadow: 0 40px 30px rgba(174, 174, 174, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 40px 30px rgba(174, 174, 174, 0.5);
 
-    position: relative;
-    overflow: hidden;
-  }
-  .wallet {
-    margin-bottom: 20px;
-  }
-  .wallet h3 {
-    margin-bottom: 13px;
-  }
+  position: relative;
+  overflow: hidden;
+}
+.wallet {
+  margin-bottom: 20px;
+}
+.wallet h3 {
+  margin-bottom: 13px;
+}
 
-  .top-2 {
-    display: flex;
-    justify-content: space-between;
-  }
+.top-2 {
+  display: flex;
+  justify-content: space-between;
+}
 
-  .top-2 h1 {
-    font-size: 23px;
-    font-weight: 500;
-  }
+.top-2 h1 {
+  font-size: 23px;
+  font-weight: 500;
+}
 
-  .top h6 {
-    margin-top: 7px;
-  }
+.top h6 {
+  margin-top: 7px;
+}
 
-  .top-2 h5,
-  .top h6,
-  .extra-card h6 {
-    font-size: 13px;
-    color: rgb(173, 173, 173);
-    font-weight: 700;
-  }
-  .card .round {
-    width: 165px;
-    height: 165px;
-    border: 3px solid #5c4af1;
-    border-radius: 100%;
-    position: absolute;
-    top: -23px;
-    right: -58px;
-  }
-  .card .round-2 {
-    top: -8px;
-    right: -39px;
-    width: 120px;
-    height: 120px;
-  }
-  .card .round-3 {
-    top: auto;
-    bottom: -100px;
-    left: -58px;
-    height: 150px;
-    width: 150px;
-  }
-  .mastercard {
-    position: relative;
-    margin-left: auto;
-  }
-  .mastercard i:first-child {
-    margin-right: -13px;
-  }
+.top-2 h5,
+.top h6,
+.extra-card h6 {
+  font-size: 13px;
+  color: rgb(173, 173, 173);
+  font-weight: 700;
+}
+.card .round {
+  width: 165px;
+  height: 165px;
+  border: 3px solid #5c4af1;
+  border-radius: 100%;
+  position: absolute;
+  top: -23px;
+  right: -58px;
+}
+.card .round-2 {
+  top: -8px;
+  right: -39px;
+  width: 120px;
+  height: 120px;
+}
+.card .round-3 {
+  top: auto;
+  bottom: -100px;
+  left: -58px;
+  height: 150px;
+  width: 150px;
+}
+.mastercard {
+  position: relative;
+  margin-left: auto;
+}
+.mastercard i:first-child {
+  margin-right: -13px;
+}
 
-  .bottom h3 {
-    font-size: 15px;
-    font-weight: 500;
-  }
-  .bottom {
-    position: relative;
-    top: 60px;
-    z-index: 0;
-  }
+.bottom h3 {
+  font-size: 15px;
+  font-weight: 500;
+}
+.bottom {
+  position: relative;
+  top: 60px;
+  z-index: 0;
+}
 
-  .extra-card-2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .extra-card h3 {
-    font-size: 24px;
-  }
-  .extra-card h6 {
-    margin-bottom: 50px;
-    position: relative;
-    bottom: 10px;
-  }
-  .iconify {
-    font-size: 50px;
-  }
+.extra-card-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.extra-card h3 {
+  font-size: 24px;
+}
+.extra-card h6 {
+  margin-bottom: 50px;
+  position: relative;
+  bottom: 10px;
+}
+.iconify {
+  font-size: 50px;
+}
 
-  /* Transactions section step 3 */
+/* Transactions section step 3 */
 
-  .transactions {
-    box-shadow: inset 0 0px 30px rgba(174, 174, 174, 0.237);
-    margin: -17px;
-    padding: 6px;
-  }
+.transactions {
+  box-shadow: inset 0 0px 30px rgba(174, 174, 174, 0.237);
+  margin: -17px;
+  padding: 6px;
+}
 
-  .transaction-header {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    margin-left: 6px;
-    margin-right: 6px;
-  }
-  .transaction-header h6 {
-    color: #6951ff;
-  }
-  .transaction-header h3 {
-    font-size: 18px;
-  }
-  .transaction-list {
-    list-style: none;
-    margin-left: 6px;
-    margin-right: 6px;
-    margin-bottom: 60px;
-  }
-  .transaction-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  .transaction-item-description {
-    margin-left: 5px;
-  }
-  .transaction-item-sum {
-    margin-left: auto;
-    font-weight: 600;
-    font-size: 22px;
-  }
-  .transaction-item-name {
-    font-size: 20px;
-    font-weight: 600;
-    margin-left: 6px;
-    margin-bottom: 4px;
-  }
-  .transaction-item-date {
-    margin-left: 6px;
-    font-size: 12px;
-    color: rgb(173, 173, 173);
-  }
-  .transaction-item-icon {
-    position: relative;
-  }
-  .red::before {
-    content: "↑";
-    font-size: 9px;
-    font-weight: bolder;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    height: 12px;
-    width: 12px;
-    bottom: 0;
-    right: 0;
-    background-color: red;
-    border-radius: 50%;
-  }
-  .green::before {
-    content: "↓";
+.transaction-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+.transaction-header h6 {
+  color: #6951ff;
+}
+.transaction-header h3 {
+  font-size: 18px;
+}
+.transaction-list {
+  list-style: none;
+  margin-left: 6px;
+  margin-right: 6px;
+  margin-bottom: 60px;
+}
+.transaction-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.transaction-item-description {
+  margin-left: 5px;
+}
+.transaction-item-sum {
+  margin-left: auto;
+  font-weight: 600;
+  font-size: 22px;
+}
+.transaction-item-name {
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 6px;
+  margin-bottom: 4px;
+}
+.transaction-item-date {
+  margin-left: 6px;
+  font-size: 12px;
+  color: rgb(173, 173, 173);
+}
+.transaction-item-icon {
+  position: relative;
+}
+.red::before {
+  content: "↑";
+  font-size: 9px;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 12px;
+  width: 12px;
+  bottom: 0;
+  right: 0;
+  background-color: red;
+  border-radius: 50%;
+}
+.green::before {
+  content: "↓";
 
-    font-size: 9px;
-    font-weight: bolder;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    height: 12px;
-    width: 12px;
-    bottom: 0;
-    right: 0;
-    background-color: green;
-    border-radius: 50%;
-  }
+  font-size: 9px;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 12px;
+  width: 12px;
+  bottom: 0;
+  right: 0;
+  background-color: green;
+  border-radius: 50%;
+}
 
-  .iconify {
-    font-size: 60px;
-  }
+.iconify {
+  font-size: 60px;
+}
 
-  /* Nav Menu step 4 */
-  .nav-menu {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-  .nav {
-    position: fixed;
-    background-color: white;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-  }
-  .nav-icons {
-    font-size: 20px;
-    padding-bottom: 18px;
-    padding-top: 18px;
-  }
+/* Nav Menu step 4 */
+.nav-menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav {
+  position: fixed;
+  background-color: white;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+}
+.nav-icons {
+  font-size: 20px;
+  padding-bottom: 18px;
+  padding-top: 18px;
 }
